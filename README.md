@@ -1,3 +1,6 @@
+IMPORTANT:
+the functionalty of task 2 is entirely dependent on if the function average(){} from Task 1 is completed and working.
+
 (i) Write a function zscore(m, na.rm) that takes the argument ‘m’ (a matrix) and converts the raw values of each variable into the z-scores, and then returns a matrix with the same dimensions and row and column names as ‘m’, but elements being the z-scores instead of the original raw scores. You should use the default assumption that variables are in columns (that is, each column of ‘m’ is a variable). For instance, column #1 contains values for variable #1. The function zscore() must not use any loops. You can only use the average(), sd(), apply(), sweep(), and return() functions inside zscore().
 
 (ii) The second argument ‘na.rm’ is a logical value (TRUE or FALSE), which tells the function how to handle the missing values (NA). The default value for ‘na.rm’ must be FALSE. Inside the body of the zscore() function you need to pass its value of the ‘na.rm’ argument to average() and sd() functions (see part (iv) below).
